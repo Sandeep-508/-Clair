@@ -1,0 +1,437 @@
+/* <---------------------------------------------------- universal Selector --------------------------------------------------------> */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* <----------------------------------------------------------- root ----------------------------------------------------------------> */
+
+:root {
+
+    /* colors */
+
+    --color-white: #FFFFFF;
+    --black-color: #000000;
+    --text-clr: #FFF624;
+    --navLink_clr: #C1C1C1;
+    --navbg_Clr: #F1F1F105;
+    --nav_brdr: #F1F1F129;
+    --token_box_brdr: linear-gradient(123.75deg, rgba(255, 255, 255, 0.2) 11.04%, rgba(255, 255, 255, 0.02) 87.64%);
+    --sub-token-bg: #313131;
+    --tokenomics_box_brdr: linear-gradient(96.24deg, rgba(241, 241, 241, 0.24) -31.57%, rgba(241, 241, 241, 0) 125.48%);
+    --audit-brdr-lg: linear-gradient(150.17deg, rgba(255, 246, 36, 0.4) -60.4%, rgba(255, 246, 36, 0) 118.96%);
+    --road-box-clr: linear-gradient(153.46deg, rgba(255, 246, 36, 0.4) -9.68%, rgba(255, 246, 36, 0) 119.9%);
+
+    /* font-family */
+
+    --fm: "Manrope", sans-serif;
+
+    /* font weight */
+
+    --fw-300: 300;
+    --fw-600: 600;
+    --fw-800: 800;
+    --fw-900: 900;
+
+
+    /* font-size */
+
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-20: 20px;
+    --fs-24: 24px;
+    --fs-32: 32px;
+    --fs-40: 40px;
+    --fs-48: 48px;
+    --fs-60: 60px;
+
+
+    /* lh */
+
+    --lh-21: 21px;
+    --lh-24: 24px;
+    --lh-30: 30px;
+    --lh-36: 36px;
+    --lh-48: 48px;
+    --lh-57: 57px;
+    --lh-72: 72px;
+
+
+    /* lh in percent */
+
+    --lh-110: 110%;
+    --lh-120: 120%;
+    --lh-150: 150%;
+
+}
+
+/* <----------------------------------------------------------- different containers ----------------------------------------------------------------> */
+
+.container_hero {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/* <----------------------------------------------------------- spacified root value ----------------------------------------------------------------> */
+
+.fm {
+    font-family: var(--fm);
+}
+
+
+.fw-300 {
+    font-weight: var(--fw-300);
+}
+
+.fw-800 {
+    font-weight: var(--fw-800);
+}
+
+.fw-600 {
+    font-weight: var(--fw-600);
+}
+
+
+.fw-900 {
+    font-weight: var(--fw-900);
+}
+
+
+.fs-16 {
+    font-size: var(--fs-16);
+}
+
+
+.fs-60 {
+    font-size: var(--fs-60);
+}
+
+
+
+.fs-14 {
+    font-size: var(--fs-14);
+}
+
+.fs-24 {
+    font-size: var(--fs-24);
+}
+
+
+.fs-32 {
+    font-size: var(--fs-32);
+}
+
+.fs-20 {
+    font-size: var(--fs-20);
+}
+
+.fs-48 {
+    font-size: var(--fs-48);
+}
+
+.lh-30 {
+    line-height: var(--lh-30);
+}
+
+.lh-48 {
+    line-height: var(--lh-48);
+}
+
+.lh-110 {
+    line-height: var(--lh-110);
+}
+
+.lh-120 {
+    line-height: var(--lh-120);
+}
+
+.lh-150 {
+    line-height: var(--lh-150);
+}
+
+
+.lh-24 {
+    line-height: var(--lh-24);
+}
+
+
+.lh-57 {
+    line-height: var(--lh-57);
+}
+
+.fs-40 {
+    font-size: var(--fs-40);
+}
+
+.lh-21 {
+    line-height: var(--lh-21);
+}
+
+
+.lh-72 {
+    line-height: var(--lh-72);
+}
+
+.lh-36 {
+    line-height: var(--lh-36);
+}
+
+.text-clr {
+    color: var(--text-clr);
+}
+
+a {
+    list-style: none !important;
+    text-decoration: none !important;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+/* Media Queries */
+
+@media (max-width: 991.9px) {
+    .line {
+        width: 100%;
+        height: 3px;
+        background: var(--color-white);
+    }
+
+    .menuicon {
+        width: 35px;
+        height: 25px;
+        z-index: 10;
+    }
+
+    .max-lg-view {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: var(--black-color);
+        top: 0;
+        left: -100%;
+        transition: all 300ms linear;
+        z-index: 9;
+    }
+
+    .d-prop-max-lg-view {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .show {
+        left: 0;
+    }
+
+    .root {
+        overflow: hidden;
+    }
+
+    .token_box {
+        max-width: 600px !important;
+        padding: 24px !important;
+    }
+
+    .max-w-lg {
+        max-width: 600px;
+    }
+
+    .wh-change-tokenomics {
+        height: auto !important;
+    }
+
+    .max-w-token-pts {
+        max-width: 375px;
+    }
+
+    .max-w-media {
+        max-width: 768px;
+    }
+
+    .mt-second-box {
+        margin-top: 50px !important;
+    }
+
+    .mt-first-box {
+        margin-top: 50px !important;
+    }
+
+    .road_box {
+        /* max-width: 500px !important;
+        width: 100% !important; */
+        backdrop-filter: blur(20px);
+    }
+
+    .road-box-pd-3 {
+        margin-top: 50px;
+    }
+
+    .audit-box-line-1,
+    .audit-box-line-2,
+    .audit-box-line-3 {
+        display: none;
+    }
+
+    .py-audit {
+        padding-top: 150px !important;
+        padding-bottom: 150px !important;
+    }
+
+    .py-media-roadmap {
+        padding-top: 0 !important;
+    }
+
+    .mt-media-row-road {
+        margin-top: 0 !important;
+    }
+
+    .pb-media-roadmap {
+        padding-bottom: 0 !important;
+    }
+
+    .py-media-social {
+        padding-top: 0 !important;
+        padding-bottom: 48px !important;
+    }
+
+    .btm_img_pos {
+        display: none;
+    }
+
+    .copy_text {
+        padding: 10px 50px 10px 12px !important;
+    }
+
+    .back_img_roadmap::after {
+        background-size: cover !important;
+    }
+
+    .wh-scrollDown {
+        left: 20px;
+        bottom: 30px !important;
+    }
+}
+
+@media (max-width: 767.9px) {
+    .tokennomics_box {
+        padding: 32px 30px 32px 30px !important;
+    }
+
+    .partner {
+        width: 80px;
+        height: 80px;
+    }
+
+    .pt-media-about {
+        padding-top: 70px !important;
+    }
+
+    .py-media-address {
+        padding-top: 120px !important;
+        padding-bottom: 120px !important;
+    }
+
+    .green_line {
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+
+    .py-faq {
+        padding-top: 105px !important;
+        padding-bottom: 80px !important;
+    }
+
+    .mb-media-text {
+        margin-bottom: 24px !important;
+    }
+
+    .road_box {
+        padding: 24px !important;
+    }
+
+    .road-box-pd-2 {
+        padding: 24px !important;
+    }
+
+    .road-box-pd-3 {
+        padding: 24px !important;
+    }
+
+    .mb-media-total-token {
+        margin-bottom: 24px !important;
+    }
+}
+
+@media (max-width: 575.9px) {
+    .token_box {
+        max-width: 320px !important;
+        padding: 24px !important;
+    }
+
+    .fs-main-text-hero {
+        font-size: var(--fs-40);
+    }
+
+    .wh-media-tokenomics {
+        height: 375px !important;
+    }
+
+    .wh-scrollDown {
+        width: 35px !important;
+        height: 40px !important;
+    }
+
+    .copy_text {
+        padding: 10px 20px 10px 12px !important;
+    }
+
+    .pos-shield-1 {
+        width: 100% !important;
+    }
+
+    .partner {
+        width: 80px !important;
+        height: 80px !important;
+        padding: 12px !important;
+    }
+
+    .audit-slider-box {
+        max-width: 320px !important;
+    }
+
+    .pt-media-about {
+        padding-top: 50px !important;
+    }
+
+    .tokennomics_box {
+        margin-top: 48px !important;
+    }
+
+    .fs-main-text-token {
+        font-size: var(--fs-32);
+    }
+
+    .fs-media-token-sub-text {
+        font-size: var(--fs-16);
+        line-height: var(--lh-150);
+    }
+
+    .mb-media-total-token {
+        margin-bottom: 16px !important;
+    }
+}
