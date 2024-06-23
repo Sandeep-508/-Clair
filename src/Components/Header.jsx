@@ -24,6 +24,7 @@ const Header = () => {
     const toggleActive = () => {
         setnavMenu(!navMenu);
         let body = document.body;
+        let height_header = document.getElementsByClassName("header_height");
         if (!navMenu) {
             body.style.overflow = "hidden";
         } else {
@@ -38,7 +39,9 @@ const Header = () => {
     }
 
     return (
-        <header style={headerImg} className=' d-flex flex-column position-relative -mt-2px'>
+        <header style={{
+            ...headerImg, height: navMenu ? '100vh' : 'auto',
+        }} className=' d-flex flex-column position-relative -mt-2px header_height'>
             <div className=' position-absolute bottom-0 ellipse_header'></div>
             <a href='#scrollDownBtn' className=' position-absolute wh-scrollDown bg-black' style={{ opacity: '70%' }}>
                 <img src={scrollDown} alt="scroll down button" className=' w-100 h-100' />
@@ -84,7 +87,7 @@ const Header = () => {
                     <img src={cartoon} alt="cartoon image" className=' w-100 h-100' />
                 </div>
             </div>
-            <div className=' position-absolute w-100 -bottom-18 start-0 z-0'>
+            <div className=' position-absolute w-100 -bottom-18 start-0 z-n1'>
                 <img src={layer_hero} alt="a triangular layer in the bottom of the hero section" className=' w-100' />
             </div>
         </header>
