@@ -49,7 +49,7 @@ const Footer = () => {
                     <a href='#' className='fm fw-semibold fs-60 lh-150 text-clr text-center fs-main-text-hero' style={{ marginBottom: '20px' }}>$CLAIR</a>
                 </div>
                 <div className='d-flex align-items-center justify-content-center'>
-                    <p className='fm fw-normal fs-16 lh-24 text-center mb-media-total-token' style={{ color: '#A9A9A9', maxWidth: '626px' }}>In this meme-driven world, laughter is not just a reaction; it's a powerful tool for chang
+                    <p className='fm fw-normal fs-16 lh-24 text-center mb-media-footer' style={{ color: '#A9A9A9', maxWidth: '626px' }}>In this meme-driven world, laughter is not just a reaction; it's a powerful tool for chang
                         and Baby Sinclair is wielding it with style. The bad players better watch out;
                         the crypto defender is here, armed with memes and ready to act.</p>
                 </div>
