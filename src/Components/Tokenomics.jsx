@@ -15,7 +15,7 @@ const Tokenomics = () => {
         height: '32px',
     }
     return (
-        <div className=' bg-black -mt-2px position-relative' id='token'>
+        <div className=' bg-black -mt-2px position-relative pb-3' id='token'>
             <div className=' position-absolute ellipse_tokenomics'></div>
             <div className="container_hero max-w-lg">
                 <div className="row justify-content-between">

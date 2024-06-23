@@ -14,7 +14,7 @@ const Roadmap = () => {
         <div className='bg-black py-media-roadmap back_img_roadmap -mt-2px position-relative' style={roadmap_bg} id='road'>
             <div className=' position-absolute ellipse_roadmap'></div>
             <div className=' position-absolute ellipse_roadmap_bottom'></div>
-            <div className="container_hero pb-media-roadmap">
+            <div className="container_hero pb-media-roadmap position-relative z-3">
                 <p className='fm fw-600 fs-48 lh-57 text-center' style={{ color: '#F1F1F1' }}>Roadmap</p>
                 <div className='row mt-media-row-road position-relative z-3'>
                     <div className='col-lg-4 col-md-6 d-flex align-items-lg-start align-items-center justify-content-lg-start justify-content-center'>

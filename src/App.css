@@ -87,8 +87,13 @@
     height: 60px;
     bottom: 111px;
     right: 32px;
-    z-index: 8;
+    z-index: 0;
     cursor: pointer;
+}
+
+.wh-header-img {
+    max-width: 810px;
+    height: 427px;
 }
 
 /* token box */
@@ -673,6 +678,7 @@
     border-radius: 16px;
     background: #FFFFFF14;
     position: relative;
+    backdrop-filter: blur(5px);
 }
 
 .road_box::after {
@@ -743,6 +749,7 @@
     transform: translateX(-50%);
     width: 100%;
     height: 642px;
+    z-index: 0;
     max-width: 1600px;
 }
 

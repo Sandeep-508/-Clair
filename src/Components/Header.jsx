@@ -80,7 +80,7 @@ const Header = () => {
                 <p className='hero-sec-sub-text fm fw-normal fs-16 lh-24 text-center' style={{ color: '#D9D9D9' }}>Led by the most advanced AI technology, with a unique burn system to potentially increase its value significantly. Secure your chance to become the next millionaire!</p>
                 <button className=' d-flex align-items-center btns fm fw-bold fs-16 lh-24 text-black text-nowrap btn_hover'>Buy $Clair <span>
                     <img src={kart} alt="kart image" /></span></button>
-                <div className=' position-relative z-2'>
+                <div className='wh-header-img'>
                     <img src={cartoon} alt="cartoon image" className=' w-100 h-100' />
                 </div>
             </div>

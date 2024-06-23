@@ -38,7 +38,7 @@ const Footer = () => {
 
     return (
         <div className='bg-black -mt-2px' style={footer_back_img}>
-            <div className='scroll_top' onClick={scroll_top} style={{ display: visible ? "grid" : "none" }}>
+            <div className='scroll_top cursor' onClick={scroll_top} style={{ display: visible ? "grid" : "none" }}>
                 <svg className=' w-100 h-100' style={{ transform: 'rotate(180deg)' }} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0006 10.9409L9.53062 8.46979L8.46973 9.53021L12.0006 13.0626L15.5315 9.53021L14.4706 8.46979L12.0006 10.9409Z" fill="#DA0C1D" />
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0006 14.9409L9.53062 12.4698L8.46973 13.5302L12.0006 17.0626L15.5315 13.5302L14.4706 12.4698L12.0006 14.9409Z" fill="#DA0C1D" />

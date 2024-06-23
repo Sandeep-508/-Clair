@@ -264,21 +264,21 @@ a {
     }
 
     .mt-second-box {
-        margin-top: 50px !important;
+        margin-top: 24px !important;
     }
 
     .mt-first-box {
-        margin-top: 50px !important;
+        margin-top: 24px !important;
     }
 
     .road_box {
-        /* max-width: 500px !important;
-        width: 100% !important; */
+        max-width: 500px !important;
+        width: 100% !important;
         backdrop-filter: blur(20px);
     }
 
     .road-box-pd-3 {
-        margin-top: 50px;
+        margin-top: 24px;
     }
 
     .audit-box-line-1,
@@ -346,6 +346,11 @@ a {
         padding-bottom: 120px !important;
     }
 
+    .wh-header-img {
+        max-width: 810px;
+        height: auto !important;
+    }
+
     .green_line {
         margin-top: 50px !important;
         margin-bottom: 50px !important;
@@ -388,7 +393,7 @@ a {
     }
 
     .wh-media-tokenomics {
-        height: 375px !important;
+        height: 430px !important;
     }
 
     .wh-scrollDown {
