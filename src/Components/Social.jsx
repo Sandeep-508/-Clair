@@ -14,7 +14,7 @@ const Social = () => {
     }
     return (
         <div className='bg-black py-media-social -mt-2px position-relative'>
-            <div className=' position-absolute ellipse_social'></div>
+            <div className=' position-absolute ellipse_social z-3'></div>
             <div className=' position-absolute dino-img-social-adj'>
                 <img src={dino_social_back} alt="dino image in the background" className=' w-100 h-100' />
             </div>

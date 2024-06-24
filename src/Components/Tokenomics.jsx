@@ -117,7 +117,7 @@ const Tokenomics = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-7 d-flex align-items-lg-start align-items-center justify-content-center flex-column px-0' data-aos="flip-right">
+                        <div className='col-lg-7 d-flex align-items-lg-start align-items-center justify-content-center flex-column px-0 pt-lg-0 pt-3' data-aos="flip-right">
                             <p className='fm fw-600 fs-20 lh-30 mb-0 text-lg-start text-center' style={{ color: '#F1F1F1' }}>Baby Sinclair Stands Strong with the Shiba Inu Community</p>
                             <p className='fm fw-normal fs-16 lh-24 mb-0 mt-2 text-lg-start text-center' style={{ color: '#C1C1C1' }}>10% of every $CLAIR token sold post-presale will be dedicated to burning SHIB.</p>
                         </div>

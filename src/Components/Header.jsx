@@ -40,7 +40,7 @@ const Header = () => {
 
     return (
         <header style={{
-            ...headerImg, height: navMenu ? '100vh' : 'auto',
+            ...headerImg, height: navMenu ? '103vh' : 'auto',
         }} className=' d-flex flex-column position-relative -mt-2px header_height'>
             <div className=' position-absolute bottom-0 ellipse_header'></div>
             <a href='#scrollDownBtn' className=' position-absolute wh-scrollDown bg-black' style={{ opacity: '70%' }}>
