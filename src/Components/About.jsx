@@ -4,7 +4,7 @@ import dino_about from '../assets/Images/PNG/dino_about.webp'
 
 const About = () => {
     return (
-        <div className=' pt-media-about bg-black position-relative -mt-2px' id='about'>
+        <div className=' pt-media-about bg-black position-relative -mt-2px pb-media-about' id='about'>
             <div className=' position-absolute ellipse_about'></div>
             <div className=' position-absolute wh-dino-about pos-about-back-img z-0'>
                 <img src={dino_about} alt="dino image hiding behind the text" className=' w-100 h-100' />

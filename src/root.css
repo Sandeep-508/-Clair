@@ -345,6 +345,10 @@ a {
         padding: 32px 30px 32px 30px !important;
     }
 
+    .pb-media-about {
+        padding-bottom: 24px !important;
+    }
+
     .ellipse_header {
         display: none !important;
     }
