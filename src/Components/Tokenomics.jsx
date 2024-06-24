@@ -15,11 +15,11 @@ const Tokenomics = () => {
         height: '32px',
     }
     return (
-        <div className=' bg-black -mt-2px position-relative pb-3' id='token'>
+        <div className=' bg-black -mt-2px position-relative py-tokenomics' id='token'>
             <div className=' position-absolute ellipse_tokenomics'></div>
             <div className="container_hero max-w-lg">
-                <div className="row justify-content-between">
-                    <div className="col-lg-5 d-flex align-items-lg-start align-items-center justify-content-center flex-column" data-aos="flip-up">
+                <div className="row justify-content-between flex-lg-row flex-column-reverse">
+                    <div className="col-lg-5 d-flex align-items-lg-start align-items-center justify-content-center flex-column pt-lg-0 pt-3" data-aos="flip-up">
                         <p className='fm fw-600 fs-48 lh-57 text-start fs-main-text-hero' style={{ color: '#F1F1F1' }}>Tokenomics</p>
                         <div className=' d-flex align-items-start justify-content-start gap-3 pt-3 pb-4'>
                             <p className='fm fw-normal fs-24 lh-36 mb-0' style={{ color: '#C1C1C1' }}>Baby Sinclair</p>

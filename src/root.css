@@ -215,7 +215,7 @@ a {
     .max-lg-view {
         position: fixed;
         width: 100%;
-        height: 100vh;
+        height: 103vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -236,6 +236,11 @@ a {
 
     .gap-media-nav {
         gap: 32px !important;
+    }
+
+    .py-tokenomics {
+        padding-top: 0 !important;
+        padding-bottom: 16px !important;
     }
 
     .show {
@@ -338,6 +343,10 @@ a {
 @media (max-width: 767.9px) {
     .tokennomics_box {
         padding: 32px 30px 32px 30px !important;
+    }
+
+    .ellipse_header {
+        display: none !important;
     }
 
     .dino-img-social-adj {

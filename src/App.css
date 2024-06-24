@@ -295,6 +295,11 @@
     pointer-events: none;
 }
 
+.py-tokenomics {
+    padding-top: 104px;
+    padding-bottom: 96px;
+}
+
 .photo-grid {
     max-width: 336px;
     height: 132px;
