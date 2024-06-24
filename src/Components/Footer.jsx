@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import footer_bg from '../assets/Images/PNG/footer_bg.png'
+import footer_bg from '../assets/Images/PNG/footer_bg.webp'
 
 const Footer = () => {
     const footer_back_img = {

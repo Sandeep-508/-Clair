@@ -1,6 +1,6 @@
 import React from 'react'
 import about_layer from '../assets/Images/PNG/about-us-bottom-layer.webp'
-import dino_about from '../assets/Images/PNG/dino_about.png'
+import dino_about from '../assets/Images/PNG/dino_about.webp'
 
 const About = () => {
     return (

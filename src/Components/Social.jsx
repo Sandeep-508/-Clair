@@ -1,9 +1,9 @@
 import React from 'react'
-import social_box_img from '../assets/Images/PNG/social_section_box_back.png'
-import dis from '../assets/Images/PNG/discord_link.png'
-import twitter from '../assets/Images/PNG/twitter_link.png'
-import tele from '../assets/Images/PNG/tele_lnk.png'
-import dino_social_back from '../assets/Images/PNG/dino.png'
+import social_box_img from '../assets/Images/PNG/social_section_box_back.webp'
+import dis from '../assets/Images/PNG/discord_link.webp'
+import twitter from '../assets/Images/PNG/twitter_link.webp'
+import tele from '../assets/Images/PNG/tele_lnk.webp'
+import dino_social_back from '../assets/Images/PNG/dino.webp'
 
 const Social = () => {
     const backBox = {

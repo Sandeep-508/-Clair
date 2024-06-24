@@ -1,6 +1,6 @@
 import React from 'react'
-import hammer from '../assets/Images/PNG/roadmap_phases_bottom_img.png'
-import roadmap_bg_img from '../assets/Images/PNG/roadmap_background_img.png'
+import hammer from '../assets/Images/PNG/roadmap_phases_bottom_img.webp'
+import roadmap_bg_img from '../assets/Images/PNG/roadmap_background_img.webp'
 
 const Roadmap = () => {
     const roadmap_bg = {

@@ -6,8 +6,8 @@ import drop_down from '../assets/Images/SVG/arrow_down.svg'
 import kart from '../assets/Images/SVG/shopping_kart.svg'
 import cartoon from '../assets/Images/PNG/hero_bottom_img.webp'
 import layer_hero from '../assets/Images/PNG/bottom-layer.webp'
-import scrollDown from '../assets/Images/PNG/scroll_down_btn.png'
-import ellipse_header from '../assets/Images/PNG/ellipse_header.png'
+import scrollDown from '../assets/Images/PNG/scroll_down_btn.webp'
+import ellipse_header from '../assets/Images/PNG/ellipse_header.webp'
 
 const headerImg = {
     // in jsx we can't use any - and _ 
