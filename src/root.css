@@ -410,12 +410,21 @@ a {
         width: 30px !important;
         height: 30px !important;
     }
+
+    .wh-img-stocks {
+        max-width: 404px;
+        min-height: 197px;
+    }
 }
 
 @media (max-width: 575.9px) {
     .token_box {
-        max-width: 320px !important;
+        max-width: 100% !important;
         padding: 24px !important;
+    }
+
+    .d-none-max-sm {
+        display: none !important;
     }
 
     .tokennomics_box {

@@ -167,7 +167,7 @@
 
 .wh-img-stocks {
     width: 404px;
-    height: 197px;
+    min-height: 197px;
 }
 
 /* about us */

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import line_lg from '../assets/Images/PNG/line_lg.webp'
 import sub_token_1 from '../assets/Images/PNG/dollar_token_img.webp'
 import sub_token_2 from '../assets/Images/PNG/t-token-img.webp'
@@ -17,6 +17,31 @@ const Token = () => {
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
     };
+
+    const [count, setCount] = useState(10);
+    const [minutes, setMinutes] = useState(58);
+    const [hour, setHour] = useState(11);
+
+
+    useEffect(() => {
+        setTimeout(() => {
+            if (count < 59) {
+                setCount(count + 1)
+            } else {
+                setCount(0);
+                if (minutes < 59) {
+                    setMinutes(minutes + 1)
+                } else {
+                    setMinutes(0)
+                    if (hour < 12) {
+                        setHour(hour + 1)
+                    } else {
+                        setHour(1)
+                    }
+                }
+            }
+        }, 1000);
+    });
     return (
         <div className=' bg-black pt-5 -mt-2px pb-3'>
             <div className=' container_hero' id='scrollDownBtn'>
@@ -52,7 +77,7 @@ const Token = () => {
                                 <button className='btn_token fm fw-bold fs-16 lh-24 d-flex align-items-center justify-content-center btn_hover'>Buy Now</button>
                             </div>
                         </div>
-                        <div className=' col-lg-7 pt-lg-0 pt-4 d-flex align-items-start justify-content-start' data-aos="fade-left">
+                        <div className=' col-lg-7 pt-lg-0 pt-4 d-flex align-items-center justify-content-center' data-aos="fade-left">
                             <div className=' d-flex align-items-start justify-content-start wh-img-stocks flex-column'>
                                 <div className="d-flex align-items--center justify-content-between w-100">
                                     <div className=' d-flex flex-column align-items-start justify-content-start'>
@@ -68,13 +93,13 @@ const Token = () => {
                                     <img src={range} alt="range of money" className=' w-100 h-100' />
                                 </div>
                                 <p className=' fm fw-normal fs-14 lh-21' style={{ color: '#A9A9A9' }}>Purchase $Clair fast until the price increase.</p>
-                                <div className=' d-flex align-items-center justify-content-center'>
+                                <div className=' d-flex align-items-center justify-content-center flex-sm-nowrap flex-wrap'>
                                     <span className='wh-token-clock-img'>
                                         <img src={clock_img} alt="image of a clock" className=' w-100 h-100' />
                                     </span>
-                                    <p className='fm fw-normal fs-16 lh-24 text-nowrap mb-0' style={{ color: '#F1F1F1', paddingLeft: '10px', paddingRight: '32px' }}>Price <br />
+                                    <p className='fm fw-normal fs-16 lh-24 text-nowrap mb-0' style={{ color: '#F1F1F1', paddingLeft: '10px', paddingRight: '32px' }}>Price <br className='d-none-max-sm' />
                                         increase in</p>
-                                    <div className=' d-flex align-items-center justify-content-center'>
+                                    <div className=' d-flex align-items-center justify-content-center mt-lg-0 mt-2'>
                                         <div className=' d-flex flex-column align-items-center justify-content-center'>
                                             <p className='fm fw-normal fs-14 lh-21 mb-0' style={{ color: "#A9A9A9" }}>Days</p>
                                             <div className='time_box fm fww-normal fs-24 lh-36' style={{ background: "#FFF62433", color: '#F1F1F1' }}>00</div>
@@ -82,17 +107,17 @@ const Token = () => {
                                         <div className='fs-40 text-center d-flex align-items-center justify-content-center px-2 pt-2' style={{ color: '#87855B' }}>:</div>
                                         <div className=' d-flex flex-column align-items-center justify-content-center'>
                                             <p className='fm fw-normal fs-14 lh-21 mb-0' style={{ color: "#A9A9A9" }}>Hours</p>
-                                            <div className='time_box fm fww-normal fs-24 lh-36' style={{ background: "#FFF62433", color: '#F1F1F1' }}>12</div>
+                                            <div className='time_box fm fww-normal fs-24 lh-36' style={{ background: "#FFF62433", color: '#F1F1F1' }}>{hour}</div>
                                         </div>
                                         <div className='fs-40 text-center d-flex align-items-center justify-content-center px-2 pt-2' style={{ color: '#87855B' }}>:</div>
                                         <div className=' d-flex flex-column align-items-center justify-content-center'>
                                             <p className='fm fw-normal fs-14 lh-21 mb-0' style={{ color: "#A9A9A9" }}>Mins</p>
-                                            <div className='time_box fm fww-normal fs-24 lh-36' style={{ background: "#FFF62433", color: '#F1F1F1' }}>46</div>
+                                            <div className='time_box fm fww-normal fs-24 lh-36' style={{ background: "#FFF62433", color: '#F1F1F1' }}>{minutes}</div>
                                         </div>
                                         <div className='fs-40 text-center d-flex align-items-center justify-content-center px-2 pt-2' style={{ color: '#87855B' }}>:</div>
                                         <div className=' d-flex flex-column align-items-center justify-content-center'>
                                             <p className='fm fw-normal fs-14 lh-21 mb-0' style={{ color: "#A9A9A9" }}>Secs</p>
-                                            <div className='time_box fm fww-normal fs-24 lh-36' style={{ background: "#FFF62433", color: '#F1F1F1' }}>19</div>
+                                            <div className='time_box fm fww-normal fs-24 lh-36' style={{ background: "#FFF62433", color: '#F1F1F1' }}>{count}</div>
                                         </div>
                                     </div>
                                 </div>
