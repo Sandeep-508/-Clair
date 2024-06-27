@@ -29,7 +29,7 @@ const Audit = () => {
             <div className='container_hero d-flex flex-column align-items-center justify-content-center'>
                 <div className="d-flex align-items-center justify-content-lg-end justify-content-center w-100">
                     <div className='row w-100 justify-content-between' style={{ maxWidth: '900px' }}>
-                        <div className='col-lg-4 position-relative d-flex align-items-lg-start align-items-center justify-content-center' data-aos="zoom-y-out">
+                        <div className='col-lg-5 position-relative d-flex align-items-lg-start align-items-center justify-content-lg-start justify-content-center' data-aos="zoom-y-out">
                             <div className=' position-absolute z-0 pos-shield-1' style={{ width: '663px', height: '457px' }}>
                                 <img src={audit_shield_1} alt="shield image" className=' w-100 h-100' />
                             </div>

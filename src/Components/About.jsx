@@ -20,7 +20,7 @@ const About = () => {
                 <div className="d-flex align-items-center justify-content-center">
                     <p className='sub-text-about-mx-3 fm fw-normal fs-16 lh-24 text-center mb-0 mt-media-about-sub-text' data-aos="flip-right" style={{ color: '#A9A9A9' }}>In this meme-driven world, laughter is not just a reaction; it's a powerful tool for change, and Baby Sinclair is wielding it with style. The bad players better watch out; the crypto defender is here, armed with memes and ready to act.</p>
                 </div>
-                <button className='btn_about fm fw-bold fs-16 lh-24 d-flex align-items-center justify-content-center mt-media-btn btn_hover' data-aos="flip-left">Learn More</button>
+                <button className='btn_about fm fw-bold fs-16 lh-24 d-flex align-items-center justify-content-center mt-media-btn btn_hover'>Learn More</button>
             </div>
         </div>
     )
