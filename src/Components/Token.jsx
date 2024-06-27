@@ -6,9 +6,9 @@ import sub_token_3 from '../assets/Images/PNG/etherium-img.webp'
 import sub_token_4 from '../assets/Images/PNG/token-box-token.webp'
 import token_stocks from '../assets/Images/PNG/stocks_buyer.webp'
 import token_bg from '../assets/Images/PNG/token_background.webp'
-import range from '../assets/Images/PNG/Group 48095474.png'
-import clock_img from '../assets/Images/PNG/token_clock_img.png'
-import dot_token_img from '../assets/Images/PNG/dots_token_sec.png'
+import range from '../assets/Images/PNG/Group 48095474.webp'
+import clock_img from '../assets/Images/PNG/token_clock_img.webp'
+import dot_token_img from '../assets/Images/PNG/dots_token_sec.webp'
 
 const Token = () => {
     const token_box = {
