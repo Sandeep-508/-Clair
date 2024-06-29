@@ -4,6 +4,7 @@ import token_image from '../assets/Images/PNG/tokenomics_image.webp'
 import partner_1 from '../assets/Images/PNG/wolf-token-img.webp'
 import partner_2 from '../assets/Images/PNG/alien-image-token.webp'
 import plus_sign from '../assets/Images/PNG/+_sign.webp'
+import tokennomics_back_img from '../assets/Images/PNG/tokennomics_back_img.png'
 
 const Tokenomics = () => {
     const for_arrow = {
@@ -14,8 +15,15 @@ const Tokenomics = () => {
         width: '32px',
         height: '32px',
     }
+
+    const token_img_back = {
+        backgroundImage: `url(${tokennomics_back_img})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+    }
     return (
-        <div className=' bg-black -mt-2px position-relative py-tokenomics' id='token'>
+        <div className=' bg-black -mt-2px position-relative py-tokenomics' style={token_img_back} id='token'>
             <div className=' position-absolute ellipse_tokenomics'></div>
             <div className="container_hero max-w-lg">
                 <div className="row justify-content-between flex-lg-row flex-column-reverse">
