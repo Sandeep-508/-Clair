@@ -484,3 +484,9 @@ a {
         min-height: auto !important;
     }
 }
+
+@media (min-width: 1920px) {
+    .wh-scrollDown {
+        right: 22% !important;
+    }
+}

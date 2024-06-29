@@ -17,7 +17,7 @@ const Roadmap = () => {
             <div className="container_hero pb-media-roadmap position-relative z-3">
                 <p className='fm fw-600 fs-48 lh-57 text-center' style={{ color: '#F1F1F1' }}>Roadmap</p>
                 <div className='row mt-media-row-road position-relative z-3'>
-                    <div className='col-lg-4 col-md-6 d-flex align-items-lg-start align-items-center justify-content-lg-start justify-content-center'>
+                    <div className='col-lg-4 col-sm-6 d-flex align-items-lg-start align-items-center justify-content-lg-start justify-content-center'>
                         <div className='road_box mt-first-box position-relative' data-aos="flip-left">
                             <div className=' position-absolute btm_img_pos'>
                                 <img src={hammer} alt="a hammer like figure" className=' w-100 h-100' />
@@ -53,7 +53,7 @@ const Roadmap = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-4 col-md-6 d-flex align-items-lg-start align-items-center justify-content-center'>
+                    <div className='col-lg-4 col-sm-6 d-flex align-items-lg-start align-items-center justify-content-center'>
                         <div className='road_box mt-second-box road-box-pd-2 position-relative' data-aos="flip-right">
                             <div className=' position-absolute btm_img_pos'>
                                 <img src={hammer} alt="a hammer like figure" className=' w-100 h-100' />

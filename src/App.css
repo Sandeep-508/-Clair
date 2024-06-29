@@ -91,6 +91,10 @@
     cursor: pointer;
 }
 
+.scrollDownAdj {
+    max-width: 1920px;
+}
+
 .wh-header-img {
     max-width: 810px;
     height: 427px;
@@ -215,8 +219,8 @@
 }
 
 .pos-about-back-img {
-    right: 16%;
-    top: 68px;
+    right: 7%;
+    top: -26px;
 }
 
 /* contact Adress */
@@ -600,7 +604,8 @@
 .dino-img-social-adj {
     width: 284px;
     height: 384px;
-    right: 87px;
+    right: -76px;
+    z-index: 0;
 }
 
 .scroll_top {
@@ -784,7 +789,7 @@
     width: 100%;
     height: 642px;
     z-index: 0;
-    max-width: 1600px;
+    max-width: 1920px;
 }
 
 .pb-media-roadmap {
