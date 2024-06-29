@@ -117,7 +117,7 @@ const Tokenomics = () => {
                                 <div className='partner'>
                                     <img src={partner_1} x alt="random partners pics" className=' w-100 h-100' />
                                 </div>
-                                <div style={plus}>
+                                <div style={plus} className='wh_plus_media'>
                                     <img src={plus_sign} alt="plus sign" className='w-100 h-100' />
                                 </div>
                                 <div className='partner'>

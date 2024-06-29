@@ -57,7 +57,7 @@ const Audit = () => {
                                 <img src={audit_shield_2} alt="shield image 2" className='w-100 h-100' />
                             </div>
                             <div className='audit-slider-box z-3'>
-                                <div className='overflow_box d-flex align-items-center justify-content-start overflow-x-auto' style={{ gap: '32px', ...scrollbars }}>
+                                <div className='overflow_box d-flex align-items-center justify-content-start overflow-x-auto gap-max-sm-media' style={{ gap: '32px', ...scrollbars }}>
                                     <div className='wh-audit-boxes'>
                                         <img src={audit_slide_1} alt="stock exchange companies" className=' w-100 h-100' />
                                     </div>

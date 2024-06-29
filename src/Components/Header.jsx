@@ -24,17 +24,23 @@ const Header = () => {
     const toggleActive = () => {
         setnavMenu(!navMenu);
         let body = document.body;
+        let menuIcon = document.querySelector(".menuicon");
         let height_header = document.getElementsByClassName("header_height");
         if (!navMenu) {
+            menuIcon.classList.add("cross");
             body.style.overflow = "hidden";
+
         } else {
+            menuIcon.classList.remove("cross");
             body.style.overflow = "auto";
         }
     }
 
     const removeActive = () => {
-        setnavMenu(false);
+        let menuIcon = document.querySelector(".menuicon");
         let body = document.body;
+        menuIcon.classList.remove("cross");
+        setnavMenu(false);
         body.style.overflow = "auto";
     }
 
@@ -55,9 +61,9 @@ const Header = () => {
                         <p className='fm fw-600 fs-32 lh-48 text-clr mb-0'>$CLAIR</p>
                     </a>
                     <div className='menuicon d-flex align-items-center justify-content-between flex-column' onClick={toggleActive}>
-                        <span className='line'></span>
-                        <span className='line'></span>
-                        <span className='line'></span>
+                        <span className='line first_line'></span>
+                        <span className='line second_line'></span>
+                        <span className='line third_line'></span>
                     </div>
                     <div className={`d-flex align-items-center justify-content-center gap-media-nav max-lg-view ${navMenu ? "show" : ""}`}>
                         <div className=' d-flex align-items-center justify-content-center gap-media-nav-link d-prop-max-lg-view'>
@@ -79,7 +85,7 @@ const Header = () => {
                 </div>
             </nav>
             <div className='container_hero w-100 d-flex flex-column align-items-center justify-content-center pt-media-hero-cont flex-grow-1'>
-                <p className='fm fw-bold fs-60 lh-72 text-white fs-main-text-hero text-center'>Presale is <span className='text-clr'>Live</span></p>
+                <p className='fm fw-bold fs-60 lh-72 text-white fs-main-text-hero text-center mb-sm-3 mb-0'>Presale is <span className='text-clr'>Live</span></p>
                 <p className='hero-sec-sub-text fm fw-normal fs-16 lh-24 text-center' style={{ color: '#D9D9D9' }}>Led by the most advanced AI technology, with a unique burn system to potentially increase its value significantly. Secure your chance to become the next millionaire!</p>
                 <button className=' d-flex align-items-center btns fm fw-bold fs-16 lh-24 text-black text-nowrap btn_hover'>Buy $Clair <span>
                     <img src={kart} alt="kart image" /></span></button>

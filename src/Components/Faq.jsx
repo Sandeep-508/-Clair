@@ -24,7 +24,7 @@ const Faq = () => {
         });
     }
     return (
-        <div className='bg-black py-faq -mt-2px position-relative' style={faqBackImg}>
+        <div className='bg-black py-faq -mt-2px position-relative bgBackFaq' style={faqBackImg}>
             <div className=' position-absolute ellipse_faq'></div>
             <p className='fm fw-600 fs-48 lh-57 text-center text-white mb-media-text' style={{ marginBottom: '60px' }}>Frequently Asked <span className='text-clr'>Question</span></p>
             <div className="container_hero max-w-faq d-flex align-items-center justify-content-center">

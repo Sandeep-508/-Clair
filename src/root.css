@@ -272,6 +272,22 @@ a {
         max-width: 768px;
     }
 
+    .cross .second_line {
+        display: none !important;
+    }
+
+    .cross .first_line {
+        transform: rotate(45deg);
+        position: relative;
+        top: 11px;
+    }
+
+    .cross .third_line {
+        transform: rotate(-45deg);
+        position: relative;
+        bottom: 11px;
+    }
+
     .mt-second-box {
         margin-top: 24px !important;
     }
@@ -288,6 +304,7 @@ a {
 
     .road-box-pd-3 {
         margin-top: 24px;
+        min-height: 100% !important;
     }
 
     .audit-box-line-1,
@@ -366,6 +383,10 @@ a {
         padding-top: 70px !important;
     }
 
+    .bgBackFaq {
+        background-size: cover !important;
+    }
+
     .py-media-address {
         padding-top: 120px !important;
         padding-bottom: 120px !important;
@@ -407,13 +428,18 @@ a {
     }
 
     .scroll_top {
-        width: 30px !important;
-        height: 30px !important;
+        width: 40px !important;
+        height: 40px !important;
     }
 
     .wh-img-stocks {
         max-width: 404px;
         min-height: 197px;
+    }
+
+    .wh-audit-col {
+        width: 200px !important;
+        height: 200px !important;
     }
 }
 
@@ -421,6 +447,24 @@ a {
     .token_box {
         max-width: 100% !important;
         padding: 24px !important;
+    }
+
+    .mt-second-box {
+        margin-top: 16px !important;
+    }
+
+    .social_box {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .wh_plus_media {
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    .gap-max-sm-media {
+        gap: 16px !important;
     }
 
     .d-none-max-sm {
